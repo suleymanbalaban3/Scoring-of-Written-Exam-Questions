@@ -1,0 +1,11 @@
+﻿Midesi alınan erişkin bir insanın sindirimle ilgili yaşayacağı sorunları yazınız? (5 puan )
+1212001 20 Üreme hormanlarının yapısına katılır Sinir hücrelerinin yapısına katılır kolestroldür.
+1212002 20 En önemli steroid klostroldür üreme hormonlarının yapısına katılır Sinir hücrelerinin yapısına katılır .
+1212003 12 üreme hormonlarının ve sinir hücrelerinin yapısına katılır.
+1212004 12 Sinir hücrelerinin yapısına katılır üreme hormonlarının yapısına katılır.
+1212005 6 En önemli steroid klostroldür.
+1212006 20 steroid klostroldür üreme hormonlarının yapısına sinir hücrelerinin yapısına katılır.
+1212007 7 üreme hormonlarının yapısına katılır.
+1212008 14 Üreme hormonlarının yapısına katılır Sinir hücrelerinin yapısına katılır.
+1212009 15 Sinir hücrelerinin yapısına katılır.
+12120010 12 Sinir hücrelerinin yapısına katılır üreme hormonlarının yapısına katılır.

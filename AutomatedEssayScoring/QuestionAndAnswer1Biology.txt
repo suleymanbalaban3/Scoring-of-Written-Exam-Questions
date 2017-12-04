@@ -1,0 +1,63 @@
+﻿Midesi alınan erişkin bir insanın sindirimle ilgili yaşayacağı sorunları yazınız? +5
+1 5 besinler vüsudunda depolanamaz. Besinler midesinde mekanik sindirim geçiremeyeceği içi ince bağırsağın işi zorlaşır. Proteinler kimyasal sindirimlerini geçiremezler.
+2 4 Proteinlerin kimyasal ve fiziksel sindirimi; karbonhidrat ve yağlarında mekanik sindiriminde sıkıntı olur. Peristatik hareket. HCL ve pepsinojen aktifleşme işini yapamaz bundan dolayı da proteinlerin sindirimi komple ince bağırsağa kalır.
+3 4 Besinler kümüs haline gelene kadar Proteinlerin sindirimi ince bağırsağa kadar gerçekleşmez. Bazı enzimler salgılanmaz.
+4 3 Depolama azalacak, mide sindirimi yavaşlayacak. Mide sıvısı az, enzimler az.
+5 5 Midede Mekanik ve Kimyasal sindirim olur. Mide kasları Mekanik sindirim ile Kimyasal sindirimi kolaylaştırır. Midesi alınan bir insan yaşar fakat sıvı beslenmek zorundadır. Çünkü besinlerin geçici olarak depo edileceği mide yoktur. Ayrıca mide özsuyu da işlevlerini yapamaz olur.
+6 3 Midesi alınan bir erişkin protein sindirimi tam anlamıyla yapılamadığından boşaltımda çok zorlanır. Ayrıca protein eksikliğine bağlı hastalıklara yakalanabilir.
+7 5 Mide besinin belli bir süre depo edildiği yer olduğu için depo edilemeden ince bağırsağa gönderilir. Proteinlerin kimyasal sindirimi midede başlar bu nedenle protein sindirimi zorlaşır.
+8 4 Midede besinler kimyasal ve mekanik sindirime uğrar. Mekanik sindirim azalacağı için kişi yediklerinde seçici olmalıdır. Az porsiyon tüketilmelidir. Midede proteinlerin sindirimi gerçekleşen kişi proteini daha az tüketmek zorunda kalır. Bu durum tüm vücudunun hormonal sistemini de etkiler.
+9 5 Asitli yiyecek içecek tüketemez. Midenin bir diğer görevi de besin depolamaktır dolayısıyla midesi alınan bir kişi çok sık yemek yeme ihtiyacı duyuyor. Vücut ihtiyaç olan enerjiyi karşılamakta zorlanır. Mide de proteinlerin eksik sindirimi karbonhidratların kimyasal sindirimi ve diğer besinlerin mekanik sindirimi vardır. Midesi alınırsa besinlerin monomenlere ayrılması ve gerekli olanların vücut da emilimi zorlaşacaktır.
+10 2 Protein sindirimi mide de başladığı için proteinler ince bağırsağa sindirilmeden geçer.
+16 3 Midede proteinlerin kimyasal sindirimi başlar ve peristaltik hareketle mekanik sindirim sağlanır. Mide alındığında ise kişi bu sindirim türlerini yapamaz ve yediklerine daha çok dikkat etmek zorunda kalır.
+20 5 Proteinlerin  sentezinde zorlanır. Besinler mekanik olarak daha az sindirilir. Besin depo edilemez. B12 vitamini sindirimi emilimi zorlaşır.
+24 5 Proteinlerin tam sindirimi gerçekleşmez. Proteinler depo edilemez. Besinler bulamaç, kümüs haline gelmede ince bağırsağa geçer.
+25 5 Midesi alınan erişkin bir birey, Proteinlerin sindirimini başltamaz. Yiyecekleri depo edemeyeceği için hemen sindirmesi gerekir. Sık sık yemek yemeli ve yiyecekleri püre olarak almalıdır.
+26 3 Protein sindirimi başlamamış olur. Sindirilmesi zorlaşır. Kimus oluşmaz. Hazımsızlık oluşabilir. Çünkü ince bağırsak tamamını sindirmede zorlanır.
+27 4 Midesi alınan bir insan proteini tam olarak sindiremez. Çünkü mide proteinlerin sindiriminin başladığı yerdir. B12 vitamini emilemez. Ve böylece insanda kansızlık oluşur. Kilo kaybı yaşanır. Aç veya tok algılayamaz. Mideden emilimi yapılan bazı ilaçlar emilemez.
+28 3 Midede proteinler ve karbonhidratlar sindirildiğinden mide olmadan bu yapılamaz. Ayrıca besinlere mekanik sindirimin midede yapılan kısmı yapılamaz. Besinler HCL ve pepsin ile sindirilemez.
+29 5 Protein kimyasal sindirimi burada başlayacağı için diğer besinlerin mekanik sindirim geçireceği bu olaylar olmaz. İnce bağırsağa daha çok yük biner. Bu da hastalıklara sebep olabilir. Ayrıca mide besinleri belirli bir süre depo eder ama alınırsa direk ince bağırsağa iner ve ince bağırsak sürekli çalışır. Pepsin enzimi aktifleşemez HCL ile peptonlara parçalayamaz.
+30 3 Besinlerin mekanik sindirimi gerçekleşmez. Proteinlerin kimyasal sindirimi yapılamaz. Besinler ince bağırsağa daha az sindirilimiş gelir. Mide öz suyu üretilemez.
+31 5 Çok çabuk acıkır. Proteinlerin sindirimi çok zorlaşır. Besin depolayamaz. Bu yüzden çok sık besin alışı yapmalıdır.
+32 2 Besinler kimus haline gelmeden ince bağırsağa ulaşacağından sindirim zorlaşır.
+34 3 Proteinlerin fiziksel sindirimi gerçekleşemez. Kimyasal sindirimde ince bağırsakta çok az gerçekleşir. En sonunda bol proteinli dışkı dışarı atılır.
+35 3 Bazı maddelerin emilimi sekteye uğrar. Protein doğru sindirilemez. İnce bağırsağın işi zorlanır çünkü fiziksel sindirime ihtiyacı vardır.
+36 5 Besini depolayamaz. HCL'nin mikrop öldürücü özelliğinden yararlanamaz. Proteinlerin yarı sindirimi gerçekleştiremeyeceğinden ince bağırsağa daha çok iş düşer. Mekanik sindirimin bir kısmı eksik kalır.
+37 3 Proteinler ilk midede sindirilir. Mide asidi sayesinde besinlerin kimusa dönüşmesi de burda gerçekleşir. Sindirimde zorluk yaşar, Hazımsızlık yaşar. İnce bağırsağa geçse direk, bağırsak zorlanır.
+38 2 Mekanik sindirimin bir aşamasını atlar, daha büyük kalır besinler. Proteinlerin sindirimini ince bağırsak başlatır ve daha az emilir. Besinler tamamen sindirilemeden vücuttan atılır, Sindirim organları eksik çalışır.
+39 4 Protein sindirimlerinde zorlanır ama sindirimi gerçekleşir. Besinler kimus oluşturmaz, ince bağırsağa daha büyük parçalar halinde gelir. Asidik ortamda çalışan enzimler kullanamaz.
+40 3 Midenin peristaltik hareketlerle besinlerini mukus haline getirmesi işlemini yapamayacağından büyük parça halinde gıda alamaz. Besinlerin temas yüzeyi azalacağından mide enzimlerinin salgılanması azalır. Sindirim kanalına ait organ eksileceğinden diğer sindirim organları daha çok çalışmak zorunda kalır.
+41 5 Besin depolayamaz. Proteinleri tam olarak sindiremez. Kimus oluşmayacağı için sıvı tüketmek zorundadır.
+42 5 Protein içerikli besinler midede sindirildiği için midesi alınan kişi protein içerikli besinleri tüketmekten kaçınmalıdır. Ayrıca midesi olmadığı için yediklerini bekletebileceği bir organı yok. Her öğün çok az yemeli kişi. Bir tabak çorbayı bile bitirememesi söz konusu.
+43 5 Çok küçük porsiyonlarda yemeleri gerekir, besin midede depo edildiği için büyük porsiyonları kaldıramazlar. Protein sindirimi burda başlar, midesinde protein tüketemez ve sindiremezler.
+44 4 Midede protein sindirimi başladığı için midesi alınan bir insan proteinlerin sindirimini başlatamaz. Yemek borusundan gelen maddeler ince bağırsağa direk geçer. Çok fazla protein tüketemez. Proteinden sağlıklı bir insan faydalandığı gibi faydalanamaz.
+45 2 Protein sindirimi eksik olur. Midede fiziksel sindirime uğramayan besinlerin emilimi ve sindirimi zor olur.
+46 5 Protein sindirimi başlatılamayacağından kişi proteinli yiyecekler tüketmemeli. Kişi mekanik ve kimyasal sindirimi daha geç gerçekleştireceğinden daha az beslenmeli, bu nedenle kilo kaybı görülür kimus üretemez. Besinlerin fazlası midede depolanamaz. B12 vitamin emilimi sağlanamaz intrisik faktör üretilemez.
+47 2 İnce bağırsağın görevi artacaktır. Mekanik sindirimi yapan yer sayısı azalacaktır bu yüzden hazımsızlık çeker.
+49 3 Midesi alınan bir insan ölmez fakar protein sindirimini yapmada zorlanır. Çünkü proteinler ilk önce midede sonra ince bağırsakta kimyasal sindirime uğrar. Bu sebeple daha az miktarda besin kaynağıyla yetinmek zorunda kalır. Bu da hayat kalitesini düşürür.
+50 2 Protein sindiriminde zorlanır.
+51 5 Midesi olmadığı için besinleri depo edecek yeri olmaz dolayısıyla çok fazla yiyemez. Ayrı zamanda besinleri parçalayamadığı için ince bağırsağa çok fazla iş düşer. Polimer ve katı madde alması sorun çıkartır. Proteinlerin sindirimi zorlaşır.
+52 5 Midede ki bekleme süresi olmadan direk sindirileceği için besinler tam sindirilemez. Protein sindiriminin büyük kısmı burada yapıldığı için protein sindirimi büyük oranda azalır. Midenin yaptığı mekanik fiziksel sindirim olmayınca sindirim zorlaşır.
+53 5 Midede protein ilk sindirimi yapılır bu yüzden büyük protein modüllerini alamaz. Besinler burada bulamaç halindeydi ince bağırsağa direk geçer. Katı modüller alınamaz bu yüzden. Aşırı zayıflama görülür. Metabolizma yavaşlar.
+54 5 Midesi alınan erişkin bir insan, karbonhidratların bir kısmı sindirilirken sorun yaşar. Midede sindirime uğrayan karbonhidratlar sindirilemez. Proteinlerin küçük polipeptitlere parçalanma aşaması midede gerçekleşir. Midesi alınan bir insan bu sindirimi gerçekleştiremez.
+55 5 Proteinlerin sindiriminde zorlanacak olabildiğince az protein yemeli. Ayrıca mekanik sindirimin birazı da burada gerçekleşeceği için besinler yeterince küçük parçalanamazlar.
+56 3 yemek yemede zorlanma. Midede yanma.
+57 5 Midede proteinlerin sindirimi gerçekleştiğinden midesi alınan insanda protein sindirimi çok zor olur. Beslenmesinde buna dikkat etmesi gerekir. Ayrıca mide besinlerin bir süre depo edildiği yerdir. Bu yüzden midesi alınan insan yine beslenmesine dikkat etmeli, fazla yemek yememelidir.
+58 3 Karbondioksit ve proteinler midede sindirime uğrar. Eğer kişinin midesi alınırsa karbondioksit ve proteinler düzgün, yeterli sindirilemez.
+59 5 Besinler yeterince fiziksel olarak parçalanamaz. Besinler depo edilemez. Sindirim süresi uzar.
+60 5 Proteinlerin sindirimi gerçekleşemeyeceği için kişi sıvı ve daha çok karbonhidrat yağ ağırlıklı beslenmek zorunda kalacaktır. Vücuda protein az alındığında ise direnç azalır, hastalıklara daha açık hale gelir.
+61 4 Mide alındığında protein sindirimi gerçekleşmez. Protein yapısal bir besin olduğu için insan ölebilir. Ayrıca midede bulunan enzimler bazı sindirim sistemi organlarını da çalıştırır mide giderse tüm sindirim sistemi çöker.
+62 5 Midenin icra ettiği depolama görevi aksatılacağından, beslenmeye dikkat edilmesi gerekir. Sıvı gıdalarla beslenmesi doğru olur. Aksi halde sık sık kusar. Midede yapılan sindirim olayları aksayacağı için yağlı ve proteinli gıdalar zorluk çıkarabilir.
+63 3 Mekanik sindirimi azalır. Proteinlerin kimyasal sindirimi zorlaşır.
+64 5 Proteinler doğru düzgün sindirilemez. Besinlerin mekanik sindirimi tam olmaz. Ve sıvı besinlerle beslenmesi gerekir. Çok katı yiyecekler tüketilemez.
+65 5 Mide depo görevi gördüğü için depo edilecek bir organı olmaması süreci hızlandırır. Proteinlerin sindirimi ince bağırsakta başlamış olur. HCL ile mideye gelen besinlere antiseptik bir madde gibi davranacak organ kalmaz. Mekanik sindirimin önemli bir basamağı atlanır. Kimus oluşamaz. İnce bağırsağa düşen görev artar. Kilo oluşumunda sıkıntılar yaşar.
+66 5 Asitli besinler tüketemez. Kişi katı yiyecekleri çok tüketemez. Çorba vs. tüketir. Midede proteinlerin kimyasal sindirimide yardımcı fakat yardım edemiyor.
+67 5 Tüm besin çeşitlerinin mekanik sindirimi aksar. Proteinlerin kimyasal sindirimini başlatan pepsinojen aktif hali pepsin enzimi mideden salgılandığı için o aksar ve ince bağırsağa daha çok yük biner.
+68 5 Az az yemek yemelidir. Mide depo görevi görür. Ancak midesi olmazsa besinler beklemeden ince bağırsağa geçer. Protein ağırlıklı beslenemez. Proteinlerin sindirimi zorlaşır.
+69 5 Midesi alınan erişkin bir insanda proteinlerin sindiriminde zorluk yaşanır. Bunun yanında mide besinlerin depo edildiği yer olduğundan dolayı az ve belirli besinler yemek zorunda kalır.
+70 5 Proteinlerin sindirimini yaparken zorlanacağından belli bir süre protein içeren besinleri tüketemez. Besin depolanamayacağından oldukça az besin yemesi gerekeceğinden sürekli açlık hissi alacaktır.
+71 5 Sindirim yine olur ama tam olarak gerçekleşmez. Mide besinlerini depo eder mide olmayınca birey çok fazla yemek yiyemez. Tam sindirim olmadığından kilo kaybı olur. Yeterince enerji üretemez özellikle protein sindirimi olmaz. Et tüketmemeli, mesela.
+72 5 Erişkin birey proteinlerin en önemli sindirim yeri mide olduğu için sıkıntı çeker ve ayrıca besinler depolanamaz. Fakat yaşar.
+73 4 Yemek borusunun bir kısmı mide gibi davranacaktır ancak proteinlerin sindirimi mideye gelen enzimler ile başladığı için protein sindiriminde sorun yaşar.
+74 5 Mide besinleri geçici olarak depolayan bir organ olduğundan besinleri depolamak amacıyla ince bağırsak özelleşir. Proteinler ince bağırsakta kimyasal olarak sindirilmeye başlar. Ayrıca mide B vitamininin emilmesini sağlayan özel bir yapı üretir. Bu sayede bağırsaklarda emilimi gerçekleşir. Midesi alınan insanda bu özel madde de üretilemez. Midede mekanik sindirim ve emilim de gerçekleşmemektedir. Bu eksiği kapatmak için ince bağırsak daha fazla çalışacaktır.
+75 5 Alınan besinlerin depo edilmesi zorlaşır. Protein alması ve onu sindirmesi zorlaşır.

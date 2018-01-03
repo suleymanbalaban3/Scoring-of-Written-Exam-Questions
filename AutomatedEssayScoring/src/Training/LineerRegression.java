@@ -62,7 +62,7 @@ public class LineerRegression {
 		getDataSet().setAnswerDataSet(embedding.vectorsFromCorpora(getDataSet().getAnswerDataSet()));
 		getDataSet().AllAverageVector();
 		/*trainDataSet();*/
-		loadInitialDataTable();
+		//loadInitialDataTable();
 		//printInitialDataTable();	
 	}
 	
@@ -73,7 +73,7 @@ public class LineerRegression {
 		
 		for (int i = 0; i < getDataSet().getAnswerDataSet().size(); i++) {
 			Vector<Double> temp = new Vector<>();
-			for (int j = 0; j < 60; j++) {
+			for (int j = 0; j < 85; j++) {		//60 idi
 				temp.add(getDataSet().getAnswerDataSet().get(i).getAverageWordVector().get(j));
 			}
 			/*for (int j = 0; j < getDataSet().getAnswerDataSet().get(i).getAverageWordVector().size(); j++) {
@@ -99,14 +99,14 @@ public class LineerRegression {
         try {
             File file = new File(betasFileName);
             output = new BufferedWriter(new FileWriter(file));
-            System.out.println("-----------------------Regression--------------------------");
+            //System.out.println("-------------------------------------------------------");
     		//Matrix matrixTransactions = new Matrix(dataIndependedTable, dependValues);
     		//Vector<Vector<Double>> result = matrixTransactions.lineerRegression();
     		Vector<Vector<Double>> result = MatrixDouble.generateRegression(dataIndependedTable, dependValues);
-    		System.out.println("Regression values :");
+    		//System.out.println("Regression size :" + result.size());
     		for (int i = 0; i < result.size(); i++) {
     			for (int j = 0; j < result.get(i).size(); j++) {
-    				System.out.println(result.get(i).get(j));
+    				//System.out.println(result.get(i).get(j));
     				String beta =  "" + result.get(i).get(j) + " ";
     				output.write(beta);
     			}
@@ -153,21 +153,126 @@ public class LineerRegression {
 
 		answerList = embedding.vectorsFromCorpora(answerList);
 		for (int i = 0; i < answerList.size(); i++) {
-			answerList.get(i).genereteAverageVector();
+			answerList.get(i).genereteAverageVector();//cahnged
 		}
 
 		for(int j = 0; j < answerList.size(); j++) {
 			for (int i = 0; i < betas.size(); i++) {	
 				point += betas.get(i) * answerList.get(j).getAverageWordVector().get(i);
 			}			
-			if(point >  answerList.get(j).getMaxGrade() && point < (2*answerList.get(j).getMaxGrade()))
-				point = answerList.get(j).getMaxGrade();
-			else if(point >  answerList.get(j).getMaxGrade() || point < 0)
-				point = 0;
-			point = Math.round(point);
+			
 			answerList.get(j).setGrade(point);
 			System.out.println(answerList.get(j));			
 			point = 0;
 		}		
 	}
+	public void findRealError() throws IOException {
+		double sum = 0.0;
+		
+		for (int i = 0; i < getDataSet().getAnswerDataSet().size(); i+=1) {
+			List<Answer> input = loadInitialDataTable(i);
+			Regression();
+			readBetasFromFile();
+			sum += errorFromInIt(input);	
+			System.out.println("all sum :" + sum);
+		}
+		//System.out.println("Accurity :" + (100- (sum/getDataSet().getAnswerDataSet().size())));
+		System.out.println("Accurity :" + (sum/getDataSet().getAnswerDataSet().size()));
+	}
+	public List<Answer> loadInitialDataTable(int start) {
+		dataIndependedTable = new Vector<Vector<Double>>();
+		dependValues = new Vector<Vector<Double>>();
+		List<Answer> res = new ArrayList<>();
+		
+		for (int i = 0; i < getDataSet().getAnswerDataSet().size(); i++) {
+			Vector<Double> temp = new Vector<>();
+			if(i >= start && i < start + 1) {
+				res.add(getDataSet().getAnswerDataSet().get(i));
+			}else {
+				for (int j = 0; j < 85; j++) {
+					temp.add(getDataSet().getAnswerDataSet().get(i).getAverageWordVector().get(j));
+				}
+				/*for (int j = 0; j < getDataSet().getAnswerDataSet().get(i).getAverageWordVector().size(); j++) {
+					temp.add(getDataSet().getAnswerDataSet().get(i).getAverageWordVector().get(j));
+				}*/
+				dataIndependedTable.addElement(temp);
+				Vector <Double> tempDependVal = new Vector<>();
+				tempDependVal.add(getDataSet().getAnswerDataSet().get(i).getGrade());
+				dependValues.add(tempDependVal);
+			}
+		}		
+		return res;
+	}
+	public double errorFromInIt(List<Answer> input) {
+		double yOld = 0.0;
+		double yNew = 0.0;
+		double subtractY = 0.0;
+		double summation = 0.0;
+		for(int i = 0; i < input.size(); i++) {
+			yOld = input.get(i).getGrade();
+			for(int j = 0; j < betas.size(); j++) {
+				yNew += betas.get(j) * input.get(i).getAverageWordVector().get(j);
+			}
+			
+			subtractY = yOld - yNew;
+			
+			if(subtractY < 0)
+				subtractY *=-1;
+			System.out.println("------------------------------------------- Answer -------------------------------------------");
+			System.out.println(getDataSet().getAnswerDataSetQuestion());
+			System.out.println(input.get(i));
+			System.out.println("Estimeted :" + yNew);
+			System.out.println();
+			if(yOld == 0)
+				yOld = 1.0;
+			//summation += (subtractY / yOld)*100;
+			System.out.println("summ :" + summation);
+			//summation += Math.pow(subtractY, 2);
+			
+			///////////////////////////////////
+			if(yOld > yNew) {
+				if(yOld == 0)
+					yOld = 1;
+				summation += ((double)yNew / yOld) * 100;
+			}else if(yNew > yOld) {
+				if(yNew == 0)
+					yNew = 1;
+				summation += ((double)yOld / yNew) * 100;
+			}else {
+				summation += 100.0;
+			}
+			yNew = 0.0;
+		}
+		return summation;
+	}
+	public double errorFromInIt2() {
+		double yOld = 0.0;
+		double yNew = 0.0;
+		double subtractY = 0.0;
+		double summation = 0.0;
+		double yOldSum = 0.0;
+		double yNewSum = 0.0;
+		for(int i = 0; i < getDataSet().getAnswerDataSet().size(); i++) {
+			yOld = getDataSet().getAnswerDataSet().get(i).getGrade();
+			for(int j = 0; j < betas.size(); j++) {
+				yNew += betas.get(j) * getDataSet().getAnswerDataSet().get(i).getAverageWordVector().get(j);
+			}
+			yNewSum += yNew;
+			yOldSum += yOld;
+			subtractY = yOld - yNew;
+			
+			if(subtractY < 0)
+				subtractY *=-1;
+			System.out.println("------------------------------------------- Answer -------------------------------------------");
+			System.out.println(getDataSet().getAnswerDataSetQuestion());
+			System.out.println(getDataSet().getAnswerDataSet().get(i));
+			System.out.println("Estimeted :" + yNew);
+			System.out.println();
+			summation += subtractY / yOld;
+			yNew = 0.0;
+		}
+		
+		return (summation);
+	}
 }
+
